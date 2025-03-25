@@ -5,6 +5,8 @@
 
 To enable businesses to grow and reimagine themselves by becoming advocates and champions for their Customers. With deep heritage and expertise in the world's most competitive market in Data Science, Digital Services, E-Commerce, Banking and Aerospace.
 
+Our expertise transcendss across advanced Customer Information Systems (CIS), billing,digital  meter data transformations and  management, CRM, and AI-driven communications. **DST** is powering the next wave of innovation in the energy industry.
+
 ## Specialties: 
 
 Cloud services (AWS, Google, AZURE) , Machine Learning & AI,  Digital Transformation, Product Engineering & Management, DevOps, Cyber Security, SRE, Agile, Public Sector, Digital Process Automation, Service Design, and User-Centred Design.
