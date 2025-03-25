@@ -33,7 +33,13 @@ Cloud services (AWS, Google, AZURE) , Machine Learning & AI,  Digital Transforma
 
 - CI/CD/DevOps/DevSecOps
 
-- Consultancy 
+- Consultancy
+  
+- Banking
+  
+- Governance & Public Utilities
+
+- Defence
 
 ## Our Integration Patterns 
 
