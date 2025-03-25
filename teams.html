@@ -1,1 +1,100 @@
-Comming soon!
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .team-member {
+            width: 200px;
+            text-align: center;
+            padding: 20px;
+            background: #f6f8fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .member-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2f81f7;
+            margin-bottom: 15px;
+        }
+        
+        .member-name {
+            font-weight: 600;
+            margin: 10px 0 5px;
+            color: #24292e;
+        }
+        
+        .member-role {
+            color: #586069;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .team-member {
+                width: 160px;
+                padding: 15px;
+            }
+            
+            .member-image {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .team-member {
+                width: 140px;
+                padding: 10px;
+            }
+            
+            .member-image {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Employee Name" class="member-image">
+            <h3 class="member-name">Jane Doe</h3>
+            <p class="member-role">Software Engineer</p>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Employee Name" class="member-image">
+            <h3 class="member-name">John Smith</h3>
+            <p class="member-role">Product Manager</p>
+        </div>
+        
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Employee Name" class="member-image">
+            <h3 class="member-name">Alex Johnson</h3>
+            <p class="member-role">UX Designer</p>
+        </div>
+        
+        <!-- Add more team members as needed -->
+    </div>
+</body>
+</html>
