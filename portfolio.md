@@ -52,7 +52,7 @@ i. Automated Quality Control: Streamlined detection of inconsistencies in markup
 
 ii. Cross-Department Adoption: Recognized by BBC technical teams for improving content reliability and scalability during the early 2000s web expansion.
 
-iii. Academic Foundation: Built on research from my MSc thesis on data validation methodologies, bridging theoretical rigor with practical implementation.
+iii. Academic Foundation: Built on research from my MSc thesis on Data Mining and Validation methodologies, bridging theoretical rigor with practical implementation.
 
 Impact: Became a critical tool for the BBC’s Webmaster team, reinforcing the corporation’s reputation for delivering high-quality digital content.
 
