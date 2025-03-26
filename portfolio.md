@@ -62,6 +62,10 @@ As a key Developer during the BBC iPlayer’s inaugural launch, I designed and i
 
 https://www.bbc.co.uk/iplayer
 
+### BBC Mobile Web App
+
+As a core Developer during the BBC Mobile Web App's foundational launch, I architected and implemented reusable widget algorithms - including the flagship **'Top Ten'** and **'Most Read'** modules - that standardized content personalization and dynamic ranking across the platform. These components optimized performance for early mobile web constraints while enabling editorial teams to curate data-driven experiences, establishing key patterns for BBC’s cross-platform content delivery that balanced real-time analytics with lightweight rendering.
+
 ## .GOV.UK (Government Services)
 Technical Architect on the following  UK Government communication hubs to its citizens Home,  and sovereign  states abroad: 
 
