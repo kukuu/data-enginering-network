@@ -56,6 +56,11 @@ iii. Academic Foundation: Built on research from my MSc thesis on Data Mining an
 
 Impact: Became a critical tool for the BBC’s Webmaster team, reinforcing the corporation’s reputation for delivering high-quality digital content.
 
+### BBC iPlayer
+
+As a key Developer during the BBC iPlayer’s inaugural launch, I designed and implemented the platform’s first social sharing feature, the **‘Send to a Friend’** module - a pioneering algorithm that enabled users to recommend content via email and nascent social channels. This innovation not only amplified user engagement during iPlayer’s critical early adoption phase but also laid groundwork for viral content dissemination, aligning with the BBC’s public service ethos while addressing scalability challenges unique to digital media sharing in the mid-2000s."
+
+
 
 ## .GOV.UK (Government Services)
 Technical Architect on the following  UK Government communication hubs to its citizens Home,  and sovereign  states abroad: 
