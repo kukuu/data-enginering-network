@@ -332,3 +332,6 @@ https://www.figma.com/board/4kkSR0KdbgOCJilUwUAVeI/Architectural-Diagrams?node-i
 https://github.com/kukuu/data-software-technologies/blob/main/README.md
 
 ## Team
+
+
+https://htmlpreview.github.io/?https://github.com/kukuu/data-software-technologies/blob/main/teams.html
