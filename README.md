@@ -116,6 +116,61 @@ This is the deployment of processing power closer to data sources (IoT devices, 
 
 Technologies: AWS IoT Greengrass, Azure IoT Edge, Kubernetes (K3s), TensorFlow Lite, and MQTT protocol.
 
+
+## Technologies and Libraries
+ 
+- Python
+- Node
+- TypeScript
+- JAVA
+- Supabase
+- PostGreSQL
+- MongoDB 
+- Apache KAFKA
+- RabbitMQ
+- Apache Flink
+- PRISMA ORM
+- Microservices
+- REACT
+- NextJS
+- GraphQL
+- FLASK
+- Websocket
+- EXPRESS
+- Prometheus
+- Elasticsearch
+- KABANA
+- Jenkins
+- Kubernetes
+- Docker
+- Logstash
+- Grafana
+- Render
+- AWS
+- Google Cloud
+- ARIMA
+- LSTM
+- Datadog
+- Flink
+- TensorFlow
+- PyTorch
+- scikit-learn
+- LangChain
+- OpenAI APIs
+- Vector databases (e.g., Pinecone)
+- MLOps
+- LLM
+- RAG
+- NLP
+- OWASP ZAP
+- SENTRY
+- SONARCUBE
+- Jest
+- Cypress
+- REACT
+- Tailwind CSS
+
+
 ## Portfolio
 
 https://github.com/kukuu/data-software-technologies/blob/main/portfolio.md
