@@ -112,6 +112,11 @@ This is the deployment of processing power closer to data sources (IoT devices, 
 
 Technologies: AWS IoT Greengrass, Azure IoT Edge, Kubernetes (K3s), TensorFlow Lite, and MQTT protocol.
 
+## Portfolio
+
+https://github.com/kukuu/data-software-technologies/blob/main/portfolio.md
+
+
 ## Team
 
 https://htmlpreview.github.io/?https://github.com/kukuu/data-software-technologies/blob/main/teams.html
