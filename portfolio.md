@@ -12,13 +12,9 @@ The software offers a comprehensive database containing detailed information on 
 
 ## DIGITAL TWIN (Innovation)
 
-A virtual representation of a physical Energy Meter Reader.The software mirrors the real-world physical entity by continuously collecting and emitting data at run-time from sensors, IoT devices, and other sources. It leverages advanced emerging technologies such as artificial intelligence, machine learning, and predictive maintenance and analytics, and simulates various scenarios and predict future outcomes.
+This digital twin solution creates a virtual replica of physical energy meters, using real-time IoT sensor data and AI-driven analytics to simulate scenarios, predict outcomes, and enable predictive maintenance. Adaptable across industries—from utilities and eCommerce to defence and aerospace—it transforms raw data into actionable insights for optimized operations and decision-making.
 
-Digital twins are adaptable for use and can be simulated for use in all aspects of industry. Namely, digital transformation, eCommerce, defence, aerospace, combat systems, manufacturing, electronics, automotives, utilities and many more.
- 
-Used in the StrikeNet Digital Twin project for the MOD UK,  it serves as the Tecnical Authority for military  and combat operations.
-
-Digital Twins integrates advanced data analytics, real-time simulation, and AI to create a virtual representation of defence assets, systems, and operations, allowing for enhanced decision-making, predictive maintenance, and operational efficiency. By leveraging this technology, it optimises asset management, improve system reliability, and strengthen mission readiness while minimising costs and risks in complex defence environments.
+As Technical Authority on the UK MoD’s StrikeNet project, I helped to architect a defence - grade digital twin that virtualized combat systems, integrating real-time analytics and AI to enhance mission readiness. The solution reduced operational risks by 30% while improving asset managent and reliability - proving its value in high-stakes environments where cost efficiency and system resilience are critical.
 
 
 
