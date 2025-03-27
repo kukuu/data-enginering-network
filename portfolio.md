@@ -325,3 +325,8 @@ https://github.com/kukuu/Migration-of-Monolith-CMS-to-a-Headless-based-approach/
 - Microservice with IaC pipeline
 
 https://www.figma.com/board/4kkSR0KdbgOCJilUwUAVeI/Architectural-Diagrams?node-id=14-150&node-type=frame&t=S3O4VlLohT4vulyt-0
+
+
+## Home
+
+## Team
