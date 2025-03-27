@@ -44,6 +44,8 @@ Cloud services (AWS, Google, AZURE) , Machine Learning & AI,  Digital Transforma
 - Governance & Public Utilities
 
 - Defence
+  
+- Sports
 
 ## Integration Patterns 
 
