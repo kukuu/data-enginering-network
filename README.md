@@ -9,7 +9,7 @@ Our expertise transcends across advanced Emerging Technologies, Customer Informa
 
 **DST** is also powering the next wave of innovation in the digital transformation of the Energy, Defence and Sports industries.
 
-## Specialties 
+## Specialities 
 
 Cloud services (AWS, Google, AZURE) , Machine Learning & AI,  Digital Transformation, Product Engineering & Management, DevOps, Cyber Security, SRE, Agile, Public Sector, Digital Process Automation, Service Design, and User-Centred Design.
   
