@@ -3,9 +3,9 @@
 
 ## Our mission 
 
-To enable businesses to grow and reimagine themselves by becoming advocates and champions for their Customers. With deep heritage and expertise in the world's most competitive market in Data Science, Digital Services, E-Commerce, Banking and Aerospace.
+To enable businesses to grow and reimagine themselves by becoming advocates and champions for their Customers. With deep heritage and expertise in the world's most competitive market in Data Science, Digital Services, E-Commerce, Banking, Aerospace and Sports.
 
-Our expertise transcends across advanced Customer Information Systems (CIS), billing,digital  meter data transformations and  management, CRM, and AI-driven communications. 
+Our expertise transcends across advanced Emerging Technologies, Customer Information Systems (CIS), Billing, Workflows, Data Transformations and AI-driven initiatives for peformance enhancements, scalability, predictive analysis and forecasting. 
 
 **DST** is also powering the next wave of innovation in the digital transformation of the Energy, Defence and Sports industries.
 
