@@ -1,5 +1,5 @@
 # Data Software Technologies
-**DST** is a Community of Global Network of Freelance Software Technologists including  Data Scientists, Cloud Enginers, AI/ML Specialists, Fullstack, Project Managers, Data and Visualisaton Analysts, Test and SRE Engineers, DevOps/DevSecOps, Cybersecurity and R&D experts empowering businesses  to compete and thrive in the modern data-driven economy.
+**DST** is a Community of Network of Global Freelance Software Technologists including  Data Scientists, Cloud Enginers, AI/ML Specialists, Fullstack, Project Managers, Data and Visualisaton Analysts, Test and SRE Engineers, DevOps/DevSecOps, Cybersecurity and R&D experts empowering businesses  to compete and thrive in the modern data-driven economy.
 
 ## Our mission 
 
