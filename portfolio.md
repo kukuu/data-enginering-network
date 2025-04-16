@@ -7,7 +7,7 @@ Non-Conformance Management Tracking (Repair Smart) software for the Aerospace In
 
 ## Obsolescence Enterprise Management System (Aerospace)
 
-The software offers a comprehensive database containing detailed information on building materials, and electronic components, including specifications, lifecycle status and compliance data.
+The software offers a comprehensive database containing detailed information on building materials, and electronic components, including specifications, lifecycle status and compliance data. 
 
 
 ## DIGITAL TWIN (Innovation)
