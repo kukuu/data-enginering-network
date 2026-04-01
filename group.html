@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .team-member {
+            width: 200px;
+            text-align: center;
+            padding: 20px;
+            background: #f6f8fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .member-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2f81f7;
+            margin-bottom: 15px;
+            margin-top:15px;
+        }
+        
+        .member-name {
+            font-weight: 600;
+            margin: 10px 0 5px;
+            color: #24292e;
+        }
+        
+        .member-role {
+            color: #586069;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .team-member {
+                width: 160px;
+                padding: 15px;
+            }
+            
+            .member-image {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .team-member {
+                width: 140px;
+                padding: 10px;
+            }
+            
+            .member-image {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .bottom-nav {
+            text-align:center;
+            clear:left; 
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="team-container">
+        <div><h1>Data Engineering & Business</h1></div> 
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="alexander.jpg" alt="Alexander Adu-Sarkodie" class="member-image">
+            <h3 class="member-name">Alexander Adu-Sarkodie</h3>
+            <p class="member-role">CEO & Practice Lead</p>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <img src="ankur.jpg" alt="Ankur Tyagi" class="member-image">
+            <h3 class="member-name">Ankur Tyagi</h3>
+            <p class="member-role">CPO & Head of QA</p>
+        </div>
+
+          <!-- Team Member 3 -->
+        <div class="team-member">
+            <img src="data:image/jpeg;base64,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" alt="Benette Dewornu" class="member-image">
+            <h3 class="member-name">Benette Dewornu</h3>
+            <p class="member-role">Chief of Communication</p>
+        </div>
+
+        
+          <!-- Team Member 4 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/C5603AQHuGuPpgNaiLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516355775538?e=1776902400&v=beta&t=vpVulEsrYKXvRUbMpybqXoijSwddvTdOPy1Kv-mQg38" alt="Professor Orhan Gemikonakli" class="member-image">
+            <h3 class="member-name">Professor Orhan Gemikonakli</h3>
+            <p class="member-role">Consultant - Information Communication Technology</p>
+        </div>
+
+         <!-- Team Member 5 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/C4E03AQGqpkeQrNwT9w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1601891890805?e=1776902400&v=beta&t=lNCxzEO1U2ibAJOfIwavV84Cw7kPrPcXvLmrzR0b9qs" alt="Jerry Agbemebiesa" class="member-image">
+            <h3 class="member-name">Jerry Agbemebiesa</h3>
+            <p class="member-role">Project Manager & Business Analyst</p>
+        </div>
+
+         <!-- Team Member 6 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/C4E03AQErUgHKhNWG8w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1571241994940?e=1776902400&v=beta&t=0NInq4O03pcbhVXyXqtMEdgCj1THJpbudCgIczRz82g" alt="Andy Lee" class="member-image">
+            <h3 class="member-name">Andy Lee</h3>
+            <p class="member-role">Advisor - Financeial Services & Asset Management</p>
+        </div>
+
+         <!-- Team Member 7 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQG629VMI7Np-Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714697775715?e=1776902400&v=beta&t=q8y-VOzGtP6b9FZTJQZUNVof9orj-CtuvRaGTrBf7cw" alt="Professor Selvaraj" class="member-image">
+            <h3 class="member-name">Professor Dr Selvaraj Oyyan Pillay</h3>
+            <p class="member-role">Consultant - Capacity Development & Academy Programmes</p>
+        </div>
+        
+        <!-- Team Member 8 -->
+        <div class="team-member">
+            <img src="pritam.jpg" alt="Pritam Sharma" class="member-image">
+            <h3 class="member-name">Pritam Sharma</h3>
+            <p class="member-role">Principal Software Engineer (Fullstack)</p>
+        </div>
+
+         <!-- Team Member 9 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQFjXFudkGqmuw/profile-displayphoto-shrink_400_400/B4EZRRghyNHEAs-/0/1736534269949?e=1776902400&v=beta&t=q01KiAh_HEOZjcNE5lzTAT3BAKGhZKE0mLqD67PZ7EY" alt="Lawson Orisson Clerk" class="member-image">
+            <h3 class="member-name">Lawson Orisson Clerk</h3>
+            <p class="member-role">Executive Producer - Media & Publishing</p>
+        </div>
+         
+         
+
+         <!-- Team Member 10 -->
+        <div class="team-member">
+            <img src="dipraj.jpg" alt="" class="member-image">
+            <h3 class="member-name">Dipraj Jadhav</h3>
+            <p class="member-role">Principal Data Scientist</p>
+        </div>
+        
+        <!-- Team Member 11 -->
+        <div class="team-member">
+            <img src="tatenda.jpg" alt="Tatenda Chawanza" class="member-image">
+            <h3 class="member-name">Tatenda Chawanza</h3>
+            <p class="member-role">Cloud Architecture & Fullstack</p>
+        </div>
+        
+        <!-- Team Member 12 --> 
+        <div class="team-member">
+            <img src="manoj.jpg" alt="Mannoj Kumar" class="member-image">
+            <h3 class="member-name">Mannoj Kumar</h3>
+            <p class="member-role">Certified SAFe & Test Manager</p>
+        </div>
+
+         <!-- Team Member 13 -->
+        <div class="team-member">
+            <img src="peter.jpg" alt="Peter Emebo" class="member-image">
+            <h3 class="member-name">Peter Emebo</h3>
+            <p class="member-role">Digital & Communications Networks Engineer</p>
+        </div>
+        
+        <!-- Team Member 14 -->
+        <div class="team-member">
+            <img src="rajesh.jpg" alt="Rajesh Mishra" class="member-image">
+            <h3 class="member-name">Rajesh Mishra</h3>
+            <p class="member-role">Data Software Engineer</p>
+        </div>
+
+         <!-- Team Member 15 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/C5603AQEtbgTCM7-QVg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643086096120?e=1776902400&v=beta&t=yqOgK8Xq7a_YBHLKIqN5XrTjhKdFhqYQHhWO7JWPsgg" alt="Chris de Lacy" class="member-image">
+            <h3 class="member-name">Chris de Lacy</h3>
+            <p class="member-role">Producer - Media & Entertainment</p>
+        </div>
+
+          <!-- Team Member 16 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQH-4YGfjPeRJQ/profile-displayphoto-scale_400_400/B4EZp6VVGXJ0Ag-/0/1762989004154?e=1776902400&v=beta&t=Le3FiIkQczcKcI2GCcPuIFtQpicx2cBSVIIReHgPMBY" alt="Abs" class="member-image">
+            <h3 class="member-name">Abanoah Halash</h3>
+            <p class="member-role">Producer - Media & Sports</p>
+        </div>
+        
+        <!-- Team Member 17 -->
+        <div class="team-member">
+            <img src="sachin.jpg" alt="Sachin Singh" class="member-image">
+            <h3 class="member-name">Sachin Singh</h3>
+            <p class="member-role">Quality Engineering Manager | AI & ML</p>
+        </div>
+
+         <!-- Team Member 18 -->
+        <div class="team-member">
+            <img src="harsh.jpg" alt="Harsh Srivastava" class="member-image">
+            <h3 class="member-name">Harsh Srivastava</h3>
+            <p class="member-role">Fullstack | Web 3.0 | App Developer</p>
+        </div>
+        
+        <!-- Team Member 19 -->
+        <div class="team-member">
+            <img src="joel.jpg" alt="Joel Dewornu" class="member-image">
+            <h3 class="member-name">Joel Dewornu</h3>
+            <p class="member-role">Data Mining & Visualisation Analyst | BI</p>
+        </div>
+
+         <!-- Team Member 20 -->
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQGrRCzpt1BO2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685197748523?e=1776902400&v=beta&t=OQQYG54VQof9VBaAsubh-Ww5_wVfnqsICrGHPSBx1p4" alt="Lois" class="member-image">
+            <h3 class="member-name">Lois Adofo</h3>
+            <p class="member-role">Producer - Media & Publishing</p>
+        </div>
+        
+        <!-- Team Member 21 -->
+        <div class="team-member">
+            <img src="arpit.jpg" alt="Arpit Srivastava" class="member-image">
+            <h3 class="member-name">Arpit Srivastava</h3>
+            <p class="member-role">Lead REACT Native Developer</p>
+        </div>
+
+         <!-- Team Member 22 -->
+        <div class="team-member">
+            <img src="gautam.jpg" alt="Gautam Mahato" class="member-image">
+            <h3 class="member-name">Gautam Mahato</h3>
+            <p class="member-role">Quality Analyst</p>
+        </div>
+        
+        <!-- Team Member 23 -->
+        <div class="team-member">
+            <img src="praveen.jpg" alt="Praveen Gaur" class="member-image">
+            <h3 class="member-name">Praveen Gaur</h3>
+            <p class="member-role">Salesforce Architect</p>
+        </div>
+
+          <!-- Team Member 24 -->
+        <div class="team-member">
+            <img src="natsuki-tai.png" alt="Natsuki Hori" class="member-image">
+            <h3 class="member-name">Natsuki Hori</h3>
+            <p class="member-role">Media Content Producer</p>
+        </div>
+        
+        <!-- Team Member 25 -->
+        <div class="team-member">
+            <img src="menakshi.jpg" alt="" class="member-image">
+            <h3 class="member-name">Menakshi Iswarys</h3>
+            <p class="member-role">UI/UX & Product Designer</p>
+        </div>
+
+         <!-- Team Member 26 -->
+        <div class="team-member">
+            <img src="lalit.jpg" alt="Lalit Ahuja" class="member-image">
+            <h3 class="member-name">Lalit Ahuja</h3>
+            <p class="member-role">Product Manager | BI | Agile</p>
+        </div>
+        
+        <!-- Team Member 27 
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Employee Name" class="member-image">
+            <h3 class="member-name">John Smith</h3>
+            <p class="member-role">Product Manager</p>
+        </div>-->
+        
+        <!-- Team Member 28 
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Employee Name" class="member-image">
+            <h3 class="member-name">Alex Johnson</h3>
+            <p class="member-role">UX Designer</p>
+        </div>-->
+        <!-- Add more team members as needed -->
+    </div>
+    <!--<div class="bottom-nav"> <a href="#">Home</a> | <a href="#">Portfolio</a></div>-->
+</body>
+</html>
